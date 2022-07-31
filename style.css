@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+
+main {
+    background: #f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+
+.conteudo {
+    width: 980px;
+    margin: 20px auto;
+}
+
+.conteudo>div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.esquerda {
+    width: 580px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 112px 0 16px;
+}
+
+.logo img {
+    height: 106px;
+    margin: -28px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+}
+
+.login {
+    background: #fff;
+    width: 396px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.usuario input[type=text],
+.senha input[type=password] {
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.usuario input[type=text]:focus,
+.senha input[type=password]:focus {
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff
+}
+
+#entrar {
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    margin: 10px 0;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+#entrar:hover {
+    background-color: #1465ce;
+    transition-duration: 0.8s;
+}
+
+.esqueceu-senha {
+    text-align: center;
+    margin: -10px 1px 5px;
+}
+
+.esqueceu-senha a {
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: 300;
+    font-size: 14px;
+    color: #1877f2;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.esqueceu-senha a:hover {
+    text-decoration: underline;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+    background: #d2d2d2;
+}
+
+.botao {
+    text-align: center;
+}
+
+#criar-conta {
+    display: inline-block;
+    background: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 7px;
+}
+
+#criar-conta:hover {
+    background-color: #369c22;
+    transition-duration: 0.8s;
+}
+
+.criar-pagina {
+    color: #000;
+    text-align: center;
+    padding: 20px 0px;
+    width: 390px;
+    text-align: center;
+}
+
+.criar-pagina p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.criar-pagina p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 980px;
+    margin: 30px auto;
+}
+
+footer ul {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer ul li button {
+    background-color: #f5f1f1;
+    width: 26px;
+    border-radius: 2px;
+    border: black;
+}
+
+.linha2 {
+    line-height: 1.34px;
+    width: 100%;
+    height: 0.5px;
+    background: #d2d2d2ad;
+}
+
+footer p {
+    margin-top: 2%;
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+footer h4 {
+    font-family: Helvetica;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+footer h4 a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+
+footer h4 a:hover {
+    color: #369c22;
+    text-decoration: none;
+    transition-duration: 1.5s;
+}
